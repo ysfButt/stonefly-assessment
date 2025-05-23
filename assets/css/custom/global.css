@@ -865,6 +865,8 @@ input,
 /* Main Table */
 .table-wrap {
   position: relative;
+  box-shadow: 0px 4px 10px 0px #00000040;
+  background: #F2F3F4;
 }
 .table-wrap::after {
   content: '';
