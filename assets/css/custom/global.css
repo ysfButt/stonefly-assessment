@@ -1070,6 +1070,17 @@ input,
   right: 0;
   opacity: .25;
 }
+@media (max-width: 1440px) {
+  .main-content {
+    padding: 27px 55px;
+  }
+  .main-content .main-left-img {
+    top: 16.7vh;
+  }
+  .main-content .main-right-img {
+    top: 7.7vh;
+  }
+}
 /** Main Content End **/
 
 /** Main Header **/
@@ -1325,6 +1336,14 @@ input,
 }
 .specification-sec .multi-graph-network .graph:first-child {
   margin-right: -80px;
+}
+@media (max-width: 1440px) {
+  .specification-sec .multi-graph {
+    margin-left: 30px;
+  }
+  .specification-sec .multi-graph-network {
+    margin-left: -10px;
+  }
 }
 /** Specification Section End **/
 
